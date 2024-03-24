@@ -23,7 +23,7 @@
   debug:
      msg: "this variable is from vars dir {{ abc }}
 
-  - name: understand templates
+- name: understand templates
   template:
     src: app.props
     dest: /app
